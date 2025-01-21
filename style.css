@@ -1,0 +1,135 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa;
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  background-color: rgb(122, 56, 138);
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+section {
+  padding: 60px 20px;
+  margin: 100px 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(122, 56, 138);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+section p, section ul {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #546e7a;
+}
+#project .project {
+  background-color: #ffffff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#project .project h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: rgb(122, 56, 138);
+}
+
+#skill ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#skill ul li {
+  margin: 0 15px;
+  font-size: 1.2rem;
+  color: #546e7a;
+}
+
+#contact p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #546e7a;
+}
+
+#contact a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(122, 56, 138);
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 150px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 0px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  #skill ul {
+      flex-direction: column;
+  }
+
+  section p, section ul {
+      font-size: 1rem;
+  }
+}
